@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="assets/coin-upaif-14631.mp3" id="victorySound"></audio>
+    <div class="container">
+            <video autoplay muted loop class="bg-video">
+              <source src="assets/caffee.mp4" type="video/mp4">
+            </video>
+            <div class="holder">
+                <div class="menu">
+                    <div class="img_effect">
+                        <a href="#"><img src="assets/main menu.png" class="main-img"></a>
+                    </div>
+                    <a href="tasks.html"><img src="assets/js png.png" class="js-img"></a>
+                </div>
+                <div class="box" id="box">
+                    <img src="assets/image.png" id="victory">
+                    <h2 class="title">0</h2>
+                    <div class="btn">
+                        <button onclick="inc()">inc</button>
+                        <button onclick="dec()">dec</button>
+                    </div>  
+                    <div class="status" id="statusText">
+                        <h2><span style="color: rgb(0, 255, 115);">Click Status:</span><span id="status">+1</span></h2>
+                    </div>
+                    </div>
+                </div>
+    </div>
+    <SCript src="app.js"></SCript>
+    <SCript src="tasks.js"></SCript>
+</body>
+</html>
